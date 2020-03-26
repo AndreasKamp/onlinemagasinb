@@ -1,0 +1,385 @@
+html {
+  background: url(Billeder/krydderi.jpg) no-repeat center center fixed; 
+  background-size: cover;
+
+}
+
+
+ul {
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+ 
+ul {
+list-style-type: none;
+margin-top: 0px;
+padding: 0;
+overflow: hidden;
+background: rgba(27, 27, 27, 0.9)!important;
+height: 80px;
+top: 0;
+width: 100%;
+     
+      
+    
+}
+
+li {
+float: right;
+    
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 30px 80px;
+text-decoration: none; 
+        
+    }
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111; }
+    
+#logo {
+transform: scale(4.6);
+height:65px;
+width:140px;
+padding: 5px 20px;
+
+
+            
+        }
+body {
+    font-family: 'Open Sans Condensed'; 
+    color: white;
+  
+     
+}
+    
+#container
+{
+    position: absolute;
+    top: 20%;
+       left: 5%;
+width:20%;
+  
+ background: rgba(27, 27, 27, 0.7)!important;
+    margin:20px auto;
+    Padding: 100px 0px;
+    height: 250px;
+     list-style-type: none;
+     overflow: hidden;
+  
+}
+
+#containerz
+{
+     position: absolute;
+    top: 20%;
+   right: 5%;
+    width:20%;
+    background: rgba(27, 27, 27, 0.7)!important;
+    margin:20px auto;
+    Padding: 100px 0px;
+    height: 250px;
+     }
+        
+    
+#artikel
+{ 
+    position: absolute;
+  
+    top: 5%;
+   height:260px;
+    width:255px;
+      
+         }
+    
+h2 {
+    color:burlywood;
+}    
+
+h3 {
+    color:white;
+}
+
+
+#artikel1
+{ 
+    
+    position: absolute;
+      bottom:0;
+    top: 5%;
+   height:260px;
+    width:252px;
+ }
+
+
+  
+
+
+
+#image1 {
+     position: absolute;
+  
+    bottom: 8%;
+   height:260px;
+    width:160px;
+    right:5%;
+}
+
+#image2 {
+     position: absolute;
+     right: 39%;
+    top: 18%;
+    height: 80px;
+    width: 170px;
+          
+}
+
+#image3 {
+      position: absolute;
+     right: 39%;
+    top: 19.6%;
+    width: 55px;
+    height: 60px;
+         
+   
+}
+#image4 {
+      position: absolute;
+     right: 34%;
+    top: 18.5%;
+    width: 80px;
+    height: 80px;
+         
+   
+}
+#sidetekst {
+      position: absolute;
+     right: 7%;
+    top: 19%;
+     font-family: 'Open Sans Condensed';  
+    
+}
+    
+
+#overskrift {
+     position: absolute;
+    left: 20%;
+    top: 15%;
+    font-family: 'Open Sans Condensed'; 
+
+} 
+
+#broedtekst{
+         position: absolute;
+    left: 2%;
+    top: 25%;
+    font-family: 'Open Sans Condensed';
+}
+
+#forfatter {
+     position: absolute;
+    left: 2%;
+    top: 20%;
+
+    color:rgba(225, 147, 12, 1.0)!important; 
+  
+  
+}
+
+#idd{
+    
+    top: 10%;  
+width:98%;
+    height: 1000px;
+ background: rgba(27, 27, 27, 0.9)!important;
+    margin:20px auto;
+    Padding: 100px 0px;
+    height: 1200px;
+     }
+#image6 {
+    position: absolute;
+    top: 35%;
+    width: 1000px;
+    left: 10%
+}
+
+ 
+  
+
+#morgenmadtekst {
+     position: absolute;
+    left: 40%;
+    top: 19%;
+    font-family: 'Open Sans Condensed'; 
+}
+
+#forfatter1 {
+     position: absolute;
+    left: 4%;
+    top: 22%;
+
+    color:rgba(225, 147, 12, 1.0)!important; 
+  
+}
+
+#fb {
+     position: absolute;
+     right: 17%;
+    top: 25.7%;
+    width: 90px;
+    height: 60px;
+}
+#tw {
+      position: absolute;
+     right: 16%;
+    top: 26.8%;
+    width: 40px;
+    height: 50px;
+}
+
+#ig{
+       position: absolute;
+     right: 13%;
+    top: 26%;
+    width: 47px;
+    height: 63px;
+}
+    
+#brødtekst2 {
+  position: absolute;
+     left: 30%;
+    top: 140%;
+        
+        
+    }
+#sidetekst2 {
+    position:absolute;
+    right: 0%;
+    top: 90%;
+}
+
+#infographic {
+     position: absolute;
+    top: 35%;
+    width: 1000px;
+    left: 10%
+        
+    
+}
+
+#i{
+     position: absolute;
+     right: 12%;
+    top: 22%;
+    height: 80px;
+    width: 170px;
+          
+}
+
+#im {
+      position: absolute;
+     right: 22%;
+    top: 23.5%;
+    width: 55px;
+    height: 60px;
+         
+   
+}
+#ima {
+      position: absolute;
+     right: 10%;
+    top: 22.5%;
+    width: 80px;
+    height: 80px;
+
+
+     } 
+#dinner {
+      position: absolute;
+     right: 27%;
+    top: 30.5%;
+    width: 270px;
+    height: 400px;
+}
+/** her har jeg leget med responsivt design - kun leg**/
+@media screen and (max-width: 1024px) {
+    
+    #containerz {
+        width:30%;
+        height: 30%;
+    }
+
+#artikel1{
+    width: 100%;
+}
+    
+    h2 {
+       width:100%;
+        height:100%;
+            font-size: 20px;
+    }
+    
+   
+    #image6{
+        
+       width:60%;
+        height: 70%;
+        position: absolute;
+        right: 5%;
+    }
+  ul   {
+         width: 100%;  
+      height: 10px%;
+        font-size: 10px;
+      
+       }
+    li {
+       width: 400px; 
+    }
+    #ig {
+       position:absolute;
+        right: 9%;
+    }
+    
+
+    #idd {
+        height: 1600px; 
+    }
+    
+    #container
+{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width:30%;
+    height: 30%;
+    }
+
+
+    ul {
+            float: left;
+    display: block;
+        width:20%;
+        font-size: 100%;
+        height: 100%
+    }
+    li{
+        width: 160%;
+     
+    }
+    #logo {
+        position: absolute;
+        left:-5%;
+    }
+    #image6{
+         position: absolute;
+        right: 5%;
+    }
+  
+        
